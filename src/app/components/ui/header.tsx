@@ -22,15 +22,52 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/signin"
+                  href="/"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
+                  Home
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Sign up
+                <Link
+                  href="/"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Experience
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Skills
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://github.com/jamesjd210"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  target="_blank"
+                >
+                  Github
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="https://www.linkedin.com/in/james-dong-1024/" 
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                  target="_blank"
+                  >
+                    Linkedin
                 </Link>
               </li>
             </ul>
