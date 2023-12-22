@@ -30,7 +30,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="/experience"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Experience
@@ -38,7 +38,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="/projects"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Projects
@@ -46,7 +46,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="/skills"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Skills
