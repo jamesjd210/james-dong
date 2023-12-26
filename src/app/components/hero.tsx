@@ -25,7 +25,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4" data-aos="fade-up">Hello, my name is James Dong and I am an aspring software engineer</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">As a CS student at UT who is interested in solving the problems of today and tomorrow in the digital sphere, I am willing to quickly learn on the fly and also be proactive by taking full advantage of my free time to gain new skills.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
