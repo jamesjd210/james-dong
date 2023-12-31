@@ -3,7 +3,7 @@ export const metadata = {
   description: 'James Dong\'s personal website',
 }
 
-import Hero from '@/components/hero'
+import Intro from '@/components/intro'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
@@ -12,7 +12,7 @@ import Testimonials from '@/components/testimonials'
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Intro />
       {/* <Features />
       <Zigzag />
       <Testimonials />

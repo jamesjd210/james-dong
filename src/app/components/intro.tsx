@@ -1,7 +1,7 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 
-export default function Hero() {
+export default function Intro() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
