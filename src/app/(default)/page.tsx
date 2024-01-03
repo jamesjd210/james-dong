@@ -3,11 +3,11 @@ export const metadata = {
   description: 'James Dong\'s personal website',
 }
 
-import Intro from '@/components/intro'
-import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
-import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import Intro from '@/app/components/intro'
+import Features from '@/app/components/features'
+import Newsletter from '@/app/components/newsletter'
+import Zigzag from '@/app/components/zigzag'
+import Testimonials from '@/app/components/testimonials'
 
 export default function Home() {
   return (
