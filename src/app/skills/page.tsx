@@ -1,4 +1,26 @@
+'use client'
+import skillsData from '@/app/data/skills.json'
+import React, { useState } from 'react';
+
 export default function Page() {
+
+    function createColumns() {
+        const columnGroup = skillsData.skills.map((category, categoryIndex) => (
+            <div key={categoryIndex} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-6" data-aos="fade-up" data-aos-delay={200 * categoryIndex}>
+                <div className="bg-white p-6 rounded shadow-md">
+                  <h3 className="text-xl font-medium mb-2">{category.category}</h3>
+                    <ul className="text-gray-600">
+                        {category.items.map((skill, skillIndex) => (
+                            <li key={skillIndex}>{skill}</li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+        ));
+        return <div className="flex flex-wrap justify-center -mx-4">{columnGroup}</div>;
+    }
+    
+
     return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -20,40 +42,8 @@ export default function Page() {
         <div className="py-12">
             <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl font-semibold mb-6 mt-10" data-aos="fade-up">Skills</h2>
-            {/* 3-column skills list... */}
-                <div className="flex flex-wrap justify-center -mx-4">
-                    {/* Column 1... */}
-                    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-6" data-aos="fade-up" data-aos-delay="200">
-                        <div className="bg-white p-6 rounded shadow-md">
-                            <ul className="text-gray-600">
-                                <li>Java</li>
-                                <li>C</li>
-                        {/* Add more programming languages as needed... */}
-                            </ul>
-                        </div>
-                    </div>
-
-                    {/* Column 2... */}
-                    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-6" data-aos="fade-up" data-aos-delay="400">
-                        <div className="bg-white p-6 rounded shadow-md">
-                            <ul className="text-gray-600">
-                                <li>Microsoft Office</li>
-                        {/* Add more software skills as needed... */}
-                            </ul>
-                        </div>
-                    </div>
-
-                    {/* Column 3... */}
-                    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-6" data-aos="fade-up" data-aos-delay="600">
-                        <div className="bg-white p-6 rounded shadow-md">
-                        {/* Add more skill categories and items as needed... */}
-                            <ul className="text-gray-600">
-                                    <li>Microsoft Office</li>
-                            {/* Add more software skills as needed... */}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                {/* 3-column skills list... */}
+                {createColumns()}
             </div>
         </div>
     </section>

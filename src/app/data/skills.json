@@ -1,0 +1,17 @@
+{
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": ["Java", "C", "JavaScript", "Python"]
+      },
+      {
+        "category": "Software",
+        "items": ["Microsoft Office", "Visual Studio Code", "Eclipse", "Git"]
+      },
+      {
+        "category": "Web Development",
+        "items": ["HTML", "CSS", "React", "Node.js"]
+      }
+    ]
+  }
+  
