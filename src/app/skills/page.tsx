@@ -4,12 +4,17 @@ export default function Page() {
 
     function createColumns() {
         const columnGroup = skillsData.skills.map((section, categoryIndex) => (
-            <div key={categoryIndex} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-6" data-aos="fade-up" data-aos-delay={200 * categoryIndex}>
+            <div key={categoryIndex} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-6" data-aos="fade-up" data-aos-delay={200 * categoryIndex}>
                 <div className="bg-gray-500 p-6 rounded shadow-md">
                   <h3 className="text-xl font-medium mb-2">{section.category}</h3>
                     <ul className="text-gray-600">
                         {section.items.map((skill, skillIndex) => (
-                            <li key={skillIndex} className="bg-gray-300 p-1 my-3 rounded shadow-md">{skill}</li>
+                            <li key={skillIndex} className="bg-gray-300 p-1 my-3 rounded shadow-md flex items-center">
+                                <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                {skill}
+                            </li>
                         ))}
                     </ul>
                 </div>
@@ -21,7 +26,7 @@ export default function Page() {
 
     return (
     <section>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+        <div className="w-full mx-auto px-4 sm:px-6 relative">
         {/* Illustration behind content */}
             <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
                 <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
