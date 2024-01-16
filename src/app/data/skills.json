@@ -11,6 +11,10 @@
       {
         "category": "Web Development",
         "items": ["HTML", "CSS", "React", "Node.js"]
+      },
+      {
+        "category": "Test",
+        "items":["item1", "item2", "item3"]
       }
     ]
   }
