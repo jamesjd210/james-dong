@@ -2,7 +2,7 @@
     "skills": [
       {
         "category": "Programming Languages",
-        "items": ["Java", "C", "C#", "JavaScript", "Typescript", "Python"]
+        "items": ["Java", "JavaScript", "Typescript", "Python","C", "C#", "Appeon Powerbuilder"]
       },
       {
         "category": "Software",
