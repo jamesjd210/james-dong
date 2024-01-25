@@ -14,7 +14,7 @@
       },
       {
         "category": "Databases",
-        "items":["SQL", "MongoDB", "Microsoft SQL Server", "Oracle"]
+        "items":["SQL", "MongoDB", "Microsoft SQL Server", "Oracle", "SQLite"]
       }
     ]
   }

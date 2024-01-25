@@ -23,7 +23,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-blue-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Home
                 </Link>
@@ -31,7 +31,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/experience"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-blue-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Experience
                 </Link>
@@ -39,7 +39,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/projects"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-blue-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Projects
                 </Link>
@@ -47,7 +47,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/skills"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-blue-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Skills
                 </Link>
@@ -55,7 +55,7 @@ export default function Header() {
               <li>
                 <Link
                   href="https://github.com/jamesjd210"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-blue-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   target="_blank"
                 >
                   Github
@@ -64,7 +64,7 @@ export default function Header() {
               <li>
                 <Link 
                   href="https://www.linkedin.com/in/james-dong-1024/" 
-                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                  className="btn-sm text-white bg-blue-600 hover:bg-blue-700 ml-3"
                   target="_blank"
                   >
                     Linkedin
