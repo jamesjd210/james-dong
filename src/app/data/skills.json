@@ -2,11 +2,11 @@
     "skills": [
       {
         "category": "Programming Languages",
-        "items": ["Java", "JavaScript", "Typescript", "Python","C", "C#", "Appeon Powerbuilder"]
+        "items": ["Java", "JavaScript", "Typescript", "Python","C", "C#", "Appeon Powerbuilder", "x86-64 Assembly", "Bash"]
       },
       {
         "category": "Software",
-        "items": ["Microsoft Office", "Visual Studio Code", "Eclipse", "Visual Studio", "Git", "Jira", "Bamboo", "Figma", "Postman", "Mabl"]
+        "items": ["Microsoft Office", "Visual Studio Code", "Visual Studio", "Git", "Jira", "Bamboo", "Figma", "Postman", "Mabl"]
       },
       {
         "category": "Web Development",
@@ -14,7 +14,7 @@
       },
       {
         "category": "Databases",
-        "items":["SQL", "MongoDB", "Microsoft SQL Server", "Oracle", "SQLite"]
+        "items":["SQL", "MongoDB", "Microsoft SQL Server", "Oracle", "SQLite", "Toad"]
       }
     ]
   }
