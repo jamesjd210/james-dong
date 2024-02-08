@@ -4,6 +4,7 @@ import { Inter, Architects_Daughter } from 'next/font/google'
 
 import Header from '@/app/components/ui/header'
 import Banner from '@/app/components/banner'
+import Footer from '@/app/components/ui/footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({
           <Header />
           {children}
           {/* <Banner /> */}
+          <Footer />
         </div>
       </body>
     </html>

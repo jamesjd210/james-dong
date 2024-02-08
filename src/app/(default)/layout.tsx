@@ -30,10 +30,10 @@ export default function DefaultLayout({
         <PageIllustration />
 
         {children}
-
+        <Footer />
       </main>
 
-      <Footer />
+
     </>
   )
 }
