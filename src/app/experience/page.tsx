@@ -2,14 +2,14 @@ import React from 'react';
 
 const experiences = [
   {
-    title: 'Software Developer',
-    company: 'ABC Tech Solutions',
+    title: 'Associate Software Developer',
+    company: 'Charles Schwab',
     year: '2020-2022',
     description: 'Worked on front-end development using React and collaborated with cross-functional teams.'
   },
   {
     title: 'Intern',
-    company: 'XYZ Company',
+    company: 'Charles Schwab',
     year: 'Summer 2019',
     description: 'Gained hands-on experience in web development and assisted in various projects.'
   },
