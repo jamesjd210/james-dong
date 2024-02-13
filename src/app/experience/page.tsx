@@ -2,21 +2,21 @@ import React from 'react';
 
 const experiences = [
   {
-    title: 'Associate Software Developer',
-    company: 'Charles Schwab',
-    year: '2020-2022',
-    description: 'Worked on front-end development using React and collaborated with cross-functional teams.'
+    title: 'Associate Software Engineer',
+    company: 'Charles Schwab | Full Time',
+    year: 'Jan 2023 - Present',
+    description: 'Worked on front-end development using Angular and collaborated with cross-functional teams.'
   },
   {
     title: 'Intern',
     company: 'Charles Schwab',
-    year: 'Summer 2019',
+    year: 'Summer 2022',
     description: 'Gained hands-on experience in web development and assisted in various projects.'
   },
   // Add more experiences as needed
 ];
 
-const Page = () => {
+export default function Experience() {
   return (
     <div className="mt-20 max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6">Experience</h1>
@@ -32,5 +32,3 @@ const Page = () => {
     </div>
   );
 };
-
-export default Page;
