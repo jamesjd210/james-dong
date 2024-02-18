@@ -1,5 +1,5 @@
 import React from "react";
-
+import experiencesData from '@/app/data/experiences.json'
 interface ExperienceItemProps {
   title: string;
   company: string;
@@ -7,23 +7,7 @@ interface ExperienceItemProps {
   description: string;
 }
 
-const experiences: ExperienceItemProps[] = [
-  {
-    title: 'Associate Software Engineer',
-    company: 'Charles Schwab | Full Time',
-    year: 'Jan 2023 - Present',
-    description: 'Worked on front-end development using Angular and collaborated with cross-functional teams.',
-  },
-  {
-    title: 'Software Intern',
-    company: 'Charles Schwab',
-    year: 'Summer 2022',
-    description: `Leveraged JavaScript and Mabl to create 300+ automated tests to confirm code functionality and correctness
-    Reduced overall cost and time of deploying tests for the entire work group by 10% on the CI/CD Bamboo pipeline
-    Documented Mabl integrations with Charles Schwab’s internal network for all future code deployment and tests`,
-  },
-  // Add more experiences as needed
-];
+const experiences: ExperienceItemProps[] = experiencesData.experiences;
 
 export default function Experience() {
   return (
