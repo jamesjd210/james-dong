@@ -12,6 +12,12 @@
             "company" : "Charles Schwab",
             "year" : "Summer 2022",
             "description" : "Leveraged JavaScript and Mabl to create 300+ automated tests to confirm code functionality and correctness. Reduced overall cost and time of deploying tests for the entire work group by 10% on the CI/CD Bamboo pipeline. Documented Mabl integrations with Charles Schwab’s internal network for all future code deployment and tests"
+        },
+        {
+            "title" : "Bachelor of Science in Computer Science UT 2023",
+            "company" : "University of Texas at Austin",
+            "year" : "Aug 2019 - Jan 2023",
+            "description" : "Attended the University of Texas at Austin with a 3.99 GPA"
         }
 
     ]
