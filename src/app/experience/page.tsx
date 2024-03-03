@@ -15,7 +15,7 @@ export default function Experience() {
       <h1 className="text-3xl font-bold mb-6">Experience</h1>
       <ul>
         {experiences.map((experience: ExperienceItemProps, index: number) => (
-          <li key={index} className="mb-8 bg-gray-800 p-4">
+          <li key={index} className="mb-8 bg-gray-800 p-4 rounded-md">
             <h2 className="text-xl font-semibold mb-2">{experience.title}</h2>
             <p className="text-gray-400 mb-1">{experience.company} - {experience.year}</p>
             <p className="text-gray-200">{experience.description}</p>
