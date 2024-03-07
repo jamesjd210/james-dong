@@ -11,7 +11,7 @@
         {
             "title" : "Software Intern",
             "company" : "Charles Schwab",
-            "year" : "Summer 2022",
+            "year" : "Summer 2022 ",
             "description" : ["Leveraged JavaScript and Mabl to create 300+ automated tests to confirm code functionality and correctness.", "Reduced overall cost and time of deploying tests for the entire work group by 10% on the CI/CD Bamboo pipeline."," Documented Mabl integrations with Charles Schwab’s internal network for all future code deployment and tests"
             ]
         },
