@@ -4,7 +4,7 @@ interface ExperienceItemProps {
   title: string;
   company: string;
   year: string;
-  description: string;
+  description: string[];
 }
 
 const experiences: ExperienceItemProps[] = experiencesData.experiences;
@@ -18,7 +18,11 @@ export default function Experience() {
           <li key={index} className="mb-8 bg-gray-800 p-4 rounded-md">
             <h2 className="text-xl font-semibold mb-2">{experience.title}</h2>
             <p className="text-gray-400 mb-1">{experience.company} - {experience.year}</p>
-            <p className="text-gray-200">{experience.description}</p>
+            <div className="text-gray-200">{experience.description.map((detail : string, index : number) =>(
+              <p key = {index}>
+              - {detail}
+              </p>
+            ))}</div>
           </li>
         ))}
       </ul>
